@@ -6,3 +6,4 @@ Will be ignored:
 
 New line 02-git-02-base
 Another new line
+Line for second commit from IDE
