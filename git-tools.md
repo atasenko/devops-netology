@@ -40,7 +40,7 @@ dd01a35078 Update CHANGELOG.md
 
 ### Коммит, в котором была создана функция func providerSource:
 
-Хэш 8c928e8358
+Хеш 8c928e8358
 
 Команда: git log -S"func providerSource(" --oneline
 
@@ -61,5 +61,7 @@ git log -L ":globalPluginDirs:plugins.go"
 Команда git log -S"synchronizedWriters(" выводит три коммита. Автор двух - James Bardin, третьего - Martin Atkins. Логично предположить что автор Martin Atkins т.к. его коммит идет раньше, но я решил дополнительно проверить посмотрев содержимое коммитов. В коммите 5ac311e2a9 функция создается, а в bdfea50cc8 удаляется за ненадобностью.  
 
 git log -S"func synchronizedWriters("
+
 git show 5ac311e2a9
+
 git show bdfea50cc8
