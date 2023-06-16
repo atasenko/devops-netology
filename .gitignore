@@ -33,6 +33,9 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# Ignore sensitive data
+Terraform/key.json
+
 # Vagrant files
 **/.vagrant/*
 

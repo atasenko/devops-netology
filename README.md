@@ -3,7 +3,7 @@
 **Подсветка и пруфы**. Работает, картинки ниже:
 
 * Terraform: ![Terraform](img/tf.png)
-* Bash: ![bahs](img/sh.png)
+* Bash: ![bash](img/sh.png)
 * Markdown: ![markdown](img/md.png)
 * Yaml: ![Yaml](img/yaml.png)
 * Jsonnet: ![Jsonnet](img/jsonnet.png)
