@@ -11,3 +11,4 @@
 
 ### Задача 4.  
 ![Grafana](img/grafana_caddy.png)
+![Docker_host](img/grafana_caddy_docker.png)
