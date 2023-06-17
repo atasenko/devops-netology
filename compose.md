@@ -7,5 +7,7 @@
 ![YC proof](img/terraform_vm.png)
 
 ### Задача 3.  
+![ansible-compose](img/ansible_compose.png)
 
-
+### Задача 4.  
+![Grafana](img/grafana_caddy.png)

@@ -3,15 +3,15 @@
     {
       "type":      "yandex",
       "token":     "was here",
-      "folder_id": "folder-id",
+      "folder_id": "b1glbl9ova5fmi6o8kj6",
       "zone":      "ru-central1-a",
 
-      "image_name":        "ubuntu-2004",
+      "image_name":        "ubuntu-2004-{{isotime | clean_resource_name}}",
       "image_family":      "ubuntu",
-      "image_description": "Ubuntu with nginx",
+      "image_description": "Ubuntu",
 
       "source_image_family": "ubuntu-2004-lts",
-      "subnet_id":           "e9b03dubhe76mkdleqbn",
+      "subnet_id":           "e9b0vq9da80gqc43vk0i",
       "use_ipv4_nat":        true,
       "disk_type":           "network-ssd",
       "ssh_username":        "ubuntu"
@@ -23,10 +23,7 @@
       "inline": [
         "echo 'updating APT'",
         "sudo apt-get update -y",
-        "sudo apt-get install -y nginx",
-        "sudo su -",
-        "sudo systemctl enable nginx.service",
-        "curl localhost"
+        "sudo apt-get upgrade -y"
       ]
     }
   ]

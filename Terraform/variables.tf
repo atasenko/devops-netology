@@ -7,5 +7,5 @@ variable "yandex_folder_id" {
 }
 
 variable "ubuntu-2004" {
-  default = "fd8ftgbh37lmg65tnq4b"
+  default = "fd8nc3pvcmkfng15kaea"
 }
